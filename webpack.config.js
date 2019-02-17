@@ -4,12 +4,16 @@ const ExtractTextPlugin = require("extract-text-webpack-plugin");
 const extractSass = new ExtractTextPlugin({
     filename: "../css/style.css",
 });
+const CopyPlugin = require('copy-webpack-plugin');
 
 module.exports = {
     entry: './src/index.js',
     plugins: [
         new UglifyJSPlugin(),
-        extractSass
+        extractSass,
+        new CopyPlugin([
+            { from: './node_modules/bootstrap/dist/css', to: '../css' },
+        ]),
     ],
     output: {
         filename: 'app.js',

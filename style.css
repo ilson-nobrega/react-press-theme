@@ -1,0 +1,15 @@
+@charset "UTF-8";
+/*
+Theme Name: ReactPress
+Theme URI: https://github.com/ilson-nobrega/react-press-theme
+Author: Ilson Nóbrega
+Author URI: https://ilson.xyz/
+Description: A amazing theme using Bootstrap 4, ReactJS, Webpack, SASS Loader, Font Awesome
+Requires at least: WordPress 5.0.0
+Version: 1.0
+License: MIT
+License URI: LICENSE
+Text Domain: ReactPress
+Tags: react, reactjs, javascript, spa, wordpress spa, bootstrap4
+*/
+@import url("css/style.css");

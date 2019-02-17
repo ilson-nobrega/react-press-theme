@@ -34,6 +34,7 @@
     "@babel/preset-env": "^7.3.1",
     "@babel/preset-react": "^7.0.0",
     "babel-loader": "^8.0.5",
+    "copy-webpack-plugin": "^4.6.0",
     "css-loader": "^2.1.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "node-sass": "^4.11.0",
@@ -45,7 +46,9 @@
     "webpack-dev-server": "^3.1.14"
   },
   "dependencies": {
+    "bootstrap": "^4.3.1",
     "react": "^16.8.2",
-    "react-dom": "^16.8.2"
+    "react-dom": "^16.8.2",
+    "reactstrap": "^7.1.0"
   }
 }
