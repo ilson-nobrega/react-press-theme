@@ -1,0 +1,26 @@
+{
+  "name": "react-press-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "serve": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ilson-nobrega/react-press-theme.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ilson-nobrega/react-press-theme/issues"
+  },
+  "homepage": "https://github.com/ilson-nobrega/react-press-theme#readme",
+  "devDependencies": {
+    "webpack": "^4.29.4",
+    "webpack-cli": "^3.2.3"
+  }
+}
