@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/style.css">
     <link rel="stylesheet" href="<?php echo get_template_directory_uri() ?>/css/bootstrap.css">
     <!-- Builded CSS -->
-    <title>Amazing React + Webpack + Wordpress Site</title>
+    <title></title>
 </head>
 <body>
 <div id="app"></div>
